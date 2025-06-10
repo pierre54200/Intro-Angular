@@ -1,0 +1,31 @@
+#top {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px 0 grey;
+	background-color: rgb(221, 221, 221);
+}
+
+#inside {
+	padding: 10px;
+}
+
+header {
+	display: flex;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+
+	.left, .right {
+		display: flex;
+		width: 50%;
+		align-items: center;
+	}
+
+	.right {
+		flex-direction: row;
+		justify-content: flex-end;
+		gap: 10px;
+	}
+}
